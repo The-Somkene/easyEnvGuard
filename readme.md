@@ -1,8 +1,8 @@
-# EnvGuard - Environment Variable Validator
+# EasyEnvGuard - Environment Variable Validator
 
 ## 📌 Introduction
 
-**EnvGuard** is a lightweight and easy-to-use environment variable validator for Node.js applications. It ensures that required environment variables are defined and have the correct data types, preventing runtime errors due to missing or incorrectly formatted variables.
+**EasyEnvGuard** is a lightweight and easy-to-use environment variable validator for Node.js applications. It ensures that required environment variables are defined and have the correct data types, preventing runtime errors due to missing or incorrectly formatted variables.
 
 ## 🚀 Features
 
@@ -13,10 +13,10 @@
 
 ## 📦 Installation
 
-Install EnvGuard using npm:
+Install EasyEnvGuard using npm:
 
 ```sh
-npm install envguard
+npm install easyenvguard
 ```
 
 ## 🔧 Usage
@@ -30,11 +30,11 @@ JWT_SECRET=mysecret
 DEBUG_MODE=true
 ```
 
-### 2️⃣ Use `envguard` in your Node.js project
+### 2️⃣ Use `easyenvguard` in your Node.js project
 
 ```javascript
 require("dotenv").config(); // Load .env file
-const { validateEnv } = require("envguard");
+const { validateEnv } = require("easyenvguard");
 
 validateEnv({
   PORT: "number",
@@ -56,7 +56,7 @@ console.log("✅ All required environment variables are valid!");
 
 ## ⚠️ Error Handling
 
-If an environment variable is missing or has the wrong type, `EnvGuard` will throw an error:
+If an environment variable is missing or has the wrong type, `EasyEnvGuard` will throw an error:
 
 ```sh
 EnvGuardError: Missing required environment variable: JWT_SECRET
@@ -77,3 +77,5 @@ Pull requests are welcome! If you have ideas for improvements, submit an issue o
 ---
 
 ⭐ **Star this repo if you find it useful!** 🚀
+
+https://github.com/The-Somkene/easyEnvGuard

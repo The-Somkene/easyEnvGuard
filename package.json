@@ -1,12 +1,32 @@
 {
   "name": "easyenvguard",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "keywords": [],
-  "author": "",
+  "keywords": [
+    "env",
+    "envguard",
+    "easyenvguard",
+    "environment",
+    "dotenv",
+    "environment-variables",
+    "env-validation",
+    "validate-env",
+    "validation",
+    "type-checking",
+    "error-handling",
+    "nodejs",
+    "config-validation",
+    "security",
+    "process-env"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/The-Somkene/easyEnvGuard"
+  },
+  "author": "the-somkene",
   "type": "module",
   "license": "ISC",
   "description": "Developers often forget to define required environment variables (.env files). This package will automatically validates required environment variables on startup."

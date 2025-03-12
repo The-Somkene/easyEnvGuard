@@ -7,6 +7,7 @@
   },
   "keywords": [],
   "author": "",
+  "type": "module",
   "license": "ISC",
   "description": "Developers often forget to define required environment variables (.env files). This package will automatically validates required environment variables on startup."
 }

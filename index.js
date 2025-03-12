@@ -5,7 +5,7 @@ class EnvGuardError extends Error {
   }
 }
 
-function validateEnv(schema) {
+module.exports.validateEnv = function(schema) {
   const errors = [];
 
   for (const [key, type] of Object.entries(schema)) {
@@ -41,4 +41,4 @@ function isValidType(value, type) {
   }
 }
 
-export default validateEnv;
+ 

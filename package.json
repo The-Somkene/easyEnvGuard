@@ -5,6 +5,7 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
+  "types": "./index.d.ts",
   "keywords": [
     "env",
     "envguard",

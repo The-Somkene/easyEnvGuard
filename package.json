@@ -1,6 +1,6 @@
 {
   "name": "easyenvguard",
-  "version": "1.0.2",
+  "version": "2.0.0",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -30,5 +30,5 @@
   "author": "the-somkene",
   "type": "module",
   "license": "ISC",
-  "description": "Developers often forget to define required environment variables (.env files). This package will automatically validates required environment variables on startup."
+  "description": "Developers often forget to define required environment variables (.env files). This package will automatically validates required environment variables on startup (Now supports TS)."
 }
